@@ -9,7 +9,7 @@ brojo=0;
 char X[]="Koliko slova a ima u ovoj recenici?";
 for(i=0;X[i]!='\0';i++)
 {
-	if(X[i]=='a')
+	if(X[i]=='a'||X[i]=='A')
 	{
 		brojo=brojo+1;
 	}
